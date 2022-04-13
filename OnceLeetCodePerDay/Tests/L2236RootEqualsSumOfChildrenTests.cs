@@ -3,7 +3,7 @@ using OnceLeetCodePerDay.Implements;
 
 namespace OnceLeetCodePerDay
 {
-    //This repo refer list about https://docs.google.com/spreadsheets/d/1je6J87BX5C5fo5Gbok1TJncVK3-UFkiDznHUzhtHbVU/edit#gid=0
+    //https://leetcode.com/problems/root-equals-sum-of-children/
     public class L2236RootEqualsSumOfChildrenTests
     {
         [SetUp]
