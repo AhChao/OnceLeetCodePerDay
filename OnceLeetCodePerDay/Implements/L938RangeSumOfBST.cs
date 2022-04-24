@@ -6,7 +6,7 @@ public class L938RangeSumOfBST
     private int _high;
     private int _result;
 
-    public int RangeSumOfBst(TreeNode root, int low, int high)
+    public int RangeSumBST(TreeNode root, int low, int high)
     {
         _low = low;
         _high = high;

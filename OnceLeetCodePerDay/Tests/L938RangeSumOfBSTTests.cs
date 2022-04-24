@@ -14,7 +14,7 @@ namespace OnceLeetCodePerDay
                                     new TreeNode(15, null, new TreeNode(18)));
             var low = 7;
             var high = 15;
-            Assert.AreEqual(32,l938RangeSumOfBst.RangeSumOfBst(root,low,high));
+            Assert.AreEqual(32,l938RangeSumOfBst.RangeSumBST(root,low,high));
         }
     }
 }
