@@ -4,6 +4,7 @@ using OnceLeetCodePerDay.Contest._0430.Implement;
 namespace OnceLeetCodePerDay
 {
     //https://leetcode.com/contest/biweekly-contest-77/problems/count-unguarded-cells-in-the-grid/
+    //https://leetcode.com/problems/count-unguarded-cells-in-the-grid/
     public class L6053CountUnguardedCellsInTheGridTests
     {
         [SetUp]
