@@ -16,7 +16,7 @@ public class L456_132Pattern
                 return true;
             }
 
-            while(stack.Count > 0 && nums[i] > middleValue && middleValue != int.MinValue)
+            while(stack.Count > 0 && nums[i] > stack.Peek())
             {
                 middleValue = Math.Max(middleValue, stack.Pop());
             }
