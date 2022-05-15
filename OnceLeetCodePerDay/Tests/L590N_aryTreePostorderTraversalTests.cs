@@ -15,17 +15,17 @@ namespace OnceLeetCodePerDay
         }
 
         private L590N_aryTreePostorderTraversal _l590NAryTreePostorderTraversal;
-        private Node590 _root;
+        private NArrayTreeNode _root;
 
         [Test]
         public void Example1_Should_Return_As_Expected()
         {
-            _root = new Node590(1,
-                                new List<Node590>()
+            _root = new NArrayTreeNode(1,
+                                new List<NArrayTreeNode>()
                                 {
-                                    new Node590(3, new List<Node590>() {new Node590(5), new Node590(6)}),
-                                    new Node590(2),
-                                    new Node590(4)
+                                    new NArrayTreeNode(3, new List<NArrayTreeNode>() {new NArrayTreeNode(5), new NArrayTreeNode(6)}),
+                                    new NArrayTreeNode(2),
+                                    new NArrayTreeNode(4)
                                 }
                                );
             ResultShouldBe(new List<int>() {5, 6, 3, 2, 4, 1});

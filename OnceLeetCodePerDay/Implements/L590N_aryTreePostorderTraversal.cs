@@ -6,7 +6,7 @@ public class L590N_aryTreePostorderTraversal
 {
     private List<int> _result;
 
-    public IList<int> Postorder(Node590 root)
+    public IList<int> Postorder(NArrayTreeNode root)
     {
         _result = new List<int>();
         if(root == null) return _result;
@@ -14,7 +14,7 @@ public class L590N_aryTreePostorderTraversal
         return _result;
     }
 
-    private void PostOrderTraverse(Node590 root)
+    private void PostOrderTraverse(NArrayTreeNode root)
     {
         if(root.children == null)
         {
@@ -31,21 +31,21 @@ public class L590N_aryTreePostorderTraversal
     }
 }
 
-public class Node590
+public class NArrayTreeNode
 {
     public int val;
-    public IList<Node590> children;
+    public IList<NArrayTreeNode> children;
 
-    public Node590()
+    public NArrayTreeNode()
     {
     }
 
-    public Node590(int _val)
+    public NArrayTreeNode(int _val)
     {
         val = _val;
     }
 
-    public Node590(int _val, IList<Node590> _children)
+    public NArrayTreeNode(int _val, IList<NArrayTreeNode> _children)
     {
         val = _val;
         children = _children;
