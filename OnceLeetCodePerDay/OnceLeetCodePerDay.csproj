@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="Contest\0501\Implement\" />
+    <Folder Include="Contest\0528\Implements\" />
   </ItemGroup>
 
 </Project>
