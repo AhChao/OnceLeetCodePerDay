@@ -29,12 +29,21 @@ namespace OnceLeetCodePerDay
         }
 
         [Test]
-        public void Input_intnMax_n1_Should_Return_intnMax()
+        public void Input_intnMax_n1_Should_Return_intMax()
         {
             _l29DivideTwoIntegers = new L29DivideTwoIntegers();
             _dividend = -int.MaxValue;
             _divisor = -1;
             ResultShouldBe(int.MaxValue);
+        }
+
+        [Test]
+        public void Input_intMin_1_Should_Return_intMin()
+        {
+            _l29DivideTwoIntegers = new L29DivideTwoIntegers();
+            _dividend = int.MinValue;
+            _divisor = 1;
+            ResultShouldBe(int.MinValue);
         }
 
         private void ResultShouldBe(int expected)
