@@ -30,6 +30,7 @@
           <li onclick="loadMarkdownContentByFileName('779. K-th Symbol in Grammar')">779. K-th Symbol in Grammar</li>
           <li onclick="loadMarkdownContentByFileName('823. Binary Trees With Factors')">823. Binary Trees With Factors</li>
           <li onclick="loadMarkdownContentByFileName('5. Longest Palindromic Substring')">5. Longest Palindromic Substring</li>
+          <li onclick="loadMarkdownContentByFileName('1220. Count Vowels Permutation')">1220. Count Vowels Permutation</li>
         </ul>
       </div>
       <div style="width: 70%; min-height: 100vh; border-left: 3px solid white; padding-left: 5%; padding-right: 5%" id="markdownField"></div>
@@ -38,7 +39,6 @@
   <script src="./lib/marked.min.js"></script>
   <script src="./lib/highlight.min.js"></script>
   <script>
-    //;
     function loadMarkdownContentByFileName(filename) {
       fetch("./MDFiles/" + filename + ".md")
         .then((response) => response.text())
