@@ -1,0 +1,5 @@
+779. K-th Symbol in Grammar
+823. Binary Trees With Factors
+5. Longest Palindromic Substring
+1220. Count Vowels Permutation
+458. Poor Pigs

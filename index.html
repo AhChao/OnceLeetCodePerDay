@@ -26,11 +26,8 @@
     <div style="text-align: center"><h1>Steven's LeetCode Practice List</h1></div>
     <div style="display: flex; width: 100%">
       <div style="width: 30%">
-        <ul>
-          <li onclick="loadMarkdownContentByFileName('779. K-th Symbol in Grammar')">779. K-th Symbol in Grammar</li>
-          <li onclick="loadMarkdownContentByFileName('823. Binary Trees With Factors')">823. Binary Trees With Factors</li>
-          <li onclick="loadMarkdownContentByFileName('5. Longest Palindromic Substring')">5. Longest Palindromic Substring</li>
-          <li onclick="loadMarkdownContentByFileName('1220. Count Vowels Permutation')">1220. Count Vowels Permutation</li>
+        <ul id="problemList">
+          <!-- <li onclick="loadMarkdownContentByFileName('779. K-th Symbol in Grammar')">779. K-th Symbol in Grammar</li> -->
         </ul>
       </div>
       <div style="width: 70%; min-height: 100vh; border-left: 3px solid white; padding-left: 5%; padding-right: 5%" id="markdownField"></div>
@@ -39,6 +36,22 @@
   <script src="./lib/marked.min.js"></script>
   <script src="./lib/highlight.min.js"></script>
   <script>
+    function initTheList() {
+      fetch("./leetcodeTitles.txt")
+        .then((response) => response.text())
+        .then((data) => {
+          var titles = data.split("\n");
+          var totalHTML = "";
+          for (var i in titles) {
+            totalHTML += "<li onclick=\"loadMarkdownContentByFileName('" + titles[i] + "')\">" + titles[i] + "</li>";
+          }
+          console.log(totalHTML);
+          document.getElementById("problemList").innerHTML = totalHTML;
+        })
+        .catch((error) => {
+          console.error("An error occurred:", error);
+        });
+    }
     function loadMarkdownContentByFileName(filename) {
       fetch("./MDFiles/" + filename + ".md")
         .then((response) => response.text())
@@ -61,5 +74,6 @@
           console.error("An error occurred:", error);
         });
     }
+    initTheList();
   </script>
 </html>
