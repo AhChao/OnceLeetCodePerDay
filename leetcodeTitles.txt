@@ -3,3 +3,4 @@
 5. Longest Palindromic Substring
 1220. Count Vowels Permutation
 458. Poor Pigs
+1356. Sort Integers by The Number of 1 Bits
