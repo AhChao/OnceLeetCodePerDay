@@ -7,3 +7,4 @@
 2433. Find The Original Array of Prefix Xor
 501. Find Mode in Binary Search Tree
 2265. Count Nodes Equal to Average of Subtree
+1441. Build an Array With Stack Operations
