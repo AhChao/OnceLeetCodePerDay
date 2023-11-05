@@ -9,3 +9,4 @@
 2265. Count Nodes Equal to Average of Subtree
 1441. Build an Array With Stack Operations
 1503. Last Moment Before All Ants Fall Out of a Plank
+1535. Find the Winner of an Array Game
