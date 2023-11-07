@@ -11,3 +11,4 @@
 1503. Last Moment Before All Ants Fall Out of a Plank
 1535. Find the Winner of an Array Game
 1845. Seat Reservation Manager
+1921. Eliminate Maximum Number of Monsters
