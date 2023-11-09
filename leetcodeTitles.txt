@@ -15,3 +15,4 @@ _ThisMonth
 1845. Seat Reservation Manager
 1921. Eliminate Maximum Number of Monsters
 2849. Determine if a Cell Is Reachable at a Given Time
+1759. Count Number of Homogenous Substrings
