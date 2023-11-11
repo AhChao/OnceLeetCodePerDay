@@ -16,3 +16,4 @@ _ThisMonth
 1921. Eliminate Maximum Number of Monsters
 2849. Determine if a Cell Is Reachable at a Given Time
 1759. Count Number of Homogenous Substrings
+1743. Restore the Array From Adjacent Pairs
