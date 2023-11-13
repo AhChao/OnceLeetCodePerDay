@@ -19,3 +19,4 @@ _ThisMonth
 1743. Restore the Array From Adjacent Pairs
 2642. Design Graph With Shortest Path Calculator
 815. Bus Routes
+2785. Sort Vowels in a String
