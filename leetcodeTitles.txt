@@ -28,3 +28,4 @@ _ThisMonth
 227. Basic Calculator II
 224. Basic Calculator
 241. Different Ways to Add Parentheses
+1877. Minimize Maximum Pair Sum in Array
