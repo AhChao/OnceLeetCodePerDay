@@ -31,3 +31,4 @@ _ThisMonth
 1877. Minimize Maximum Pair Sum in Array
 282. Expression Add Operators
 1838. Frequency of the Most Frequent Element
+2232. Minimize Result by Adding Parentheses to Expression
