@@ -30,3 +30,4 @@ _ThisMonth
 241. Different Ways to Add Parentheses
 1877. Minimize Maximum Pair Sum in Array
 282. Expression Add Operators
+1838. Frequency of the Most Frequent Element
