@@ -32,3 +32,4 @@ _ThisMonth
 282. Expression Add Operators
 1838. Frequency of the Most Frequent Element
 2232. Minimize Result by Adding Parentheses to Expression
+1887. Reduction Operations to Make the Array Elements Equal
