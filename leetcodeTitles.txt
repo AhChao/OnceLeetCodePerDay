@@ -36,3 +36,4 @@ _ThisMonth
 2391. Minimum Amount of Time to Collect Garbage
 204. Count Primes
 2019. The Score of Students Solving Math Expression
+312. Burst Balloons
