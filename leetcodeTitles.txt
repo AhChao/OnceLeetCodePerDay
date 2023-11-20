@@ -33,3 +33,4 @@ _ThisMonth
 1838. Frequency of the Most Frequent Element
 2232. Minimize Result by Adding Parentheses to Expression
 1887. Reduction Operations to Make the Array Elements Equal
+2391. Minimum Amount of Time to Collect Garbage
