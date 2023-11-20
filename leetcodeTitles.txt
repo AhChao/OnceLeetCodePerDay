@@ -35,3 +35,4 @@ _ThisMonth
 1887. Reduction Operations to Make the Array Elements Equal
 2391. Minimum Amount of Time to Collect Garbage
 204. Count Primes
+2019. The Score of Students Solving Math Expression
