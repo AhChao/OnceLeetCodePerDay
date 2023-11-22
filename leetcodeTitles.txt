@@ -38,3 +38,4 @@ _ThisMonth
 2019. The Score of Students Solving Math Expression
 312. Burst Balloons
 1814. Count Nice Pairs in an Array
+1424. Diagonal Traverse II
