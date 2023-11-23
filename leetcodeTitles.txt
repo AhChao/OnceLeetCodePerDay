@@ -39,3 +39,4 @@ _ThisMonth
 312. Burst Balloons
 1814. Count Nice Pairs in an Array
 1424. Diagonal Traverse II
+1630. Arithmetic Subarrays
