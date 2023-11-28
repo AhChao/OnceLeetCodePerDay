@@ -44,3 +44,4 @@ _ThisMonth
 1685. Sum of Absolute Differences in a Sorted Array
 1727. Largest Submatrix With Rearrangements
 935. Knight Dialer
+2147. Number of Ways to Divide a Long Corridor
