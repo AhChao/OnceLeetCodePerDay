@@ -30,6 +30,10 @@
           color: black;
         }
       }
+      .listItem {
+        cursor: pointer;
+        margin-top: 5px;
+      }
     </style>
     <link rel="stylesheet" href="./lib/dracula.css" />
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
@@ -48,6 +52,7 @@
   <script src="./lib/marked.min.js"></script>
   <script src="./lib/highlight.min.js"></script>
   <script>
+    var problemList = [];
     function initTheList() {
       fetch("./leetcodeTitles.txt")
         .then((response) => response.text())
@@ -61,7 +66,9 @@
               currentFolder = titles[i];
               continue;
             }
-            totalHTML += "<li onclick=\"loadMarkdownContentByFileName('" + (currentFolder == "_ThisMonth" ? "" : currentFolder + "\/") + titles[i] + "')\">" + titles[i] + "</li>";
+            var titleWithPath = (currentFolder == "_ThisMonth" ? "" : currentFolder + "\/") + titles[i];
+            problemList.push(titleWithPath);
+            totalHTML += '<li class="listItem" onclick="loadMarkdownContentByFileName(\'' + titleWithPath + "')\">" + titles[i] + "</li>";
           }
           console.log(totalHTML);
           document.getElementById("problemList").innerHTML = totalHTML;
