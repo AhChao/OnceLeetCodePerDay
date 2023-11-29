@@ -77,8 +77,21 @@
           console.error("An error occurred:", error);
         });
     }
+
+    function loadProblemByUrl() {
+      var currentUrl = new URL(window.location.href);
+      var problemNo = currentUrl.searchParams.get("problem");
+      var filterResult = problemList.filter((x) => (x.indexOf("\/") != -1 ? x.split("\/")[1].split(".")[0] == problemNo : x.split(".")[0] == problemNo));
+      var problemTitle = filterResult.length == 0 ? "" : filterResult[0];
+      if (problemTitle != "") loadMarkdownContentByFileName(problemTitle);
+    }
     function loadMarkdownContentByFileName(filename) {
       console.log(filename);
+      var currentUrl = new URL(window.location.href);
+      var problemNo = filename.indexOf("\/") != -1 ? filename.split("\/")[1].split(".")[0] : filename.split(".")[0];
+      currentUrl.searchParams.set("problem", problemNo);
+      window.history.pushState({}, "", currentUrl);
+
       fetch("./MDFiles/" + filename + ".md")
         .then((response) => response.text())
         .then((data) => {
@@ -100,6 +113,11 @@
           console.error("An error occurred:", error);
         });
     }
-    initTheList();
+
+    function init() {
+      initTheList();
+      setTimeout(loadProblemByUrl, 1000);
+    }
+    init();
   </script>
 </html>
