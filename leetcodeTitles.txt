@@ -47,3 +47,4 @@ _ThisMonth
 2147. Number of Ways to Divide a Long Corridor
 191. Number of 1 Bits
 1611. Minimum One Bit Operations to Make Integers Zero
+486. Predict the Winner
