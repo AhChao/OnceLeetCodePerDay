@@ -46,3 +46,4 @@ _ThisMonth
 935. Knight Dialer
 2147. Number of Ways to Divide a Long Corridor
 191. Number of 1 Bits
+1611. Minimum One Bit Operations to Make Integers Zero
