@@ -69,3 +69,4 @@ _ThisMonth
 2966. Divide Array Into Arrays With Max Difference
 2967. Minimum Cost to Make Array Equalindromic
 2968. Apply Operations to Maximize Frequency Score
+1913. Maximum Product Difference Between Two Pairs
