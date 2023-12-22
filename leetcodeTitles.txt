@@ -73,3 +73,4 @@ _ThisMonth
 661. Image Smoother
 2706. Buy Two Chocolates
 1637. Widest Vertical Area Between Two Points Containing No Points
+1422. Maximum Score After Splitting a String
