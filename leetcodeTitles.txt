@@ -74,3 +74,4 @@ _ThisMonth
 2706. Buy Two Chocolates
 1637. Widest Vertical Area Between Two Points Containing No Points
 1422. Maximum Score After Splitting a String
+1496. Path Crossing
