@@ -78,3 +78,4 @@ _ThisMonth
 1758. Minimum Changes To Make Alternating Binary String
 91. Decode Ways
 1155. Number of Dice Rolls With Target Sum
+1578. Minimum Time to Make Rope Colorful
