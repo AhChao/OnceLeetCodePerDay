@@ -47,7 +47,7 @@
 2147. Number of Ways to Divide a Long Corridor
 191. Number of 1 Bits
 1611. Minimum One Bit Operations to Make Integers Zero
-_ThisMonth
+2023_12
 486. Predict the Winner
 1160. Find Words That Can Be Formed by Characters
 1266. Minimum Time Visiting All Points
@@ -80,3 +80,9 @@ _ThisMonth
 1155. Number of Dice Rolls With Target Sum
 1578. Minimum Time to Make Rope Colorful
 1531. String Compression II
+1335. Minimum Difficulty of a Job Schedule
+1897. Redistribute Characters to Make All Strings Equal
+1624. Largest Substring Between Two Equal Characters
+_ThisMonth
+455. Assign Cookies
+2610. Convert an Array Into a 2D Array With Conditions
